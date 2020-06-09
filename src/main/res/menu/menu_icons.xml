@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Room Allotment Requests"
+        app:showAsAction="always"
+        android:id="@+id/roomc"
+        android:icon="@drawable/ic_room_allotment"/>
+<item
+    android:title="Warden Details"
+    app:showAsAction="always"
+    android:id="@+id/wardenc"
+    android:icon="@drawable/ic_contacts_black_24dp"/>
+    <item
+        android:title="Laundry Details"
+        app:showAsAction="always"
+        android:id="@+id/laundryc"
+        android:icon="@drawable/ic_laundry_24dp"/>
+    <item
+        android:title="Mess Menu"
+        app:showAsAction="always"
+        android:id="@+id/messmenuec"
+        android:icon="@drawable/ic_mess_menu_black_24dp"/>
+</menu>

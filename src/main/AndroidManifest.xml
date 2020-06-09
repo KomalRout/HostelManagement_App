@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.crudapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/hostelicon"
+        android:label="Hostel Management App"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Roomalloc"></activity>
+        <activity android:name=".Navigationactivity" />
+        <activity android:name=".WardenPage" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".next1">
+        </activity>
+        <activity android:name=".next" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".ViewActivity" />
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".DeleteActivity" />
+        <activity android:name=".UpdateActivity" />
+        <activity android:name=".InsertActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

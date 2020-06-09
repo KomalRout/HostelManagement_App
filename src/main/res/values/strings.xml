@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Hostel Management</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="warden">Warden Contact Details</string>
+    <string name="studentpage">Student Home Page</string>
+</resources>
